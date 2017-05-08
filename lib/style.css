@@ -4,8 +4,17 @@ canvas {
 
 body {
   text-align: center;
+  box-sizing: border-box;
 }
 
-pre {
+#startButton {
+  color: #fff;
+  background-color: #000;
+  font-size: 24px;
+  height: 90px;
+  left: 595px;
+  padding: 15px 30px;
   position: absolute;
+  top: 250px;
+  width: 100px;
 }

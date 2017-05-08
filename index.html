@@ -8,9 +8,20 @@
   </head>
 
   <body>
-    <canvas id="game" width="900" height="600">
-  </canvas>
+    <div id="startPage">
+      <input id="startButton" type="button" value="Start"/>
+    </div>
 
+    <canvas id="game" width="900" height="550" class="hide"></canvas>
+
+    <script>
+        document.getElementById('startButton').addEventListener('click', function(e) {
+          e.preventDefault();
+          this.hide();
+          console.log(this);
+          document.getElementById('game').show();
+        });
+    </script>
     <script src="main.bundle.js"></script>
   </body>
 

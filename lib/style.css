@@ -4,8 +4,48 @@ canvas {
 
 body {
   text-align: center;
+  box-sizing: border-box;
+  position: relative;
 }
 
-pre {
+#logo {
   position: absolute;
+  top: 70px;
+  left: 400px;
+}
+
+#startButton,
+#easyGame,
+#hardGame {
+  background-color: #000;
+  color: rgba(0, 255, 0, 1);
+  font-size: 24px;
+  padding: 15px 30px;
+  width: 150px;
+}
+
+#easyGame,
+#hardGame {
+  height: 60px;
+}
+
+#startButton {
+  height: 90px;
+  padding: 15px 30px;
+  position: absolute;
+  left: 570px;
+  top: 235px;
+}
+
+
+#easyGame {
+  position: absolute;
+  top: 340px;
+  left: 490px;
+}
+
+#hardGame {
+  position: absolute;
+  top: 340px;
+  right: 450px;
 }

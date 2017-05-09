@@ -24,6 +24,13 @@ body {
   width: 150px;
 }
 
+#startButton:hover,
+#easyGame:hover,
+#hardGame:hover {
+  background-color: rgba(0, 255, 0, 1);
+  color: #000;
+}
+
 #easyGame,
 #hardGame {
   height: 60px;

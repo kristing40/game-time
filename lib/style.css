@@ -14,7 +14,7 @@ body {
   left: 400px;
 }
 
-#startButton,
+
 #easyGame,
 #hardGame {
   background-color: #000;
@@ -24,7 +24,6 @@ body {
   width: 150px;
 }
 
-#startButton:hover,
 #easyGame:hover,
 #hardGame:hover {
   background-color: rgba(0, 255, 0, 1);
@@ -36,23 +35,14 @@ body {
   height: 60px;
 }
 
-#startButton {
-  height: 90px;
-  padding: 15px 30px;
-  position: absolute;
-  left: 570px;
-  top: 235px;
-}
-
-
 #easyGame {
   position: absolute;
-  top: 340px;
-  left: 490px;
+  top: 250px;
+  left: 480px;
 }
 
 #hardGame {
   position: absolute;
-  top: 340px;
-  right: 450px;
+  top: 250px;
+  right: 460px;
 }

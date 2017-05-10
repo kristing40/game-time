@@ -10,13 +10,10 @@ describe('Truck', () => {
     assert.instanceOf(truck, Truck);
   })
   it('should have move right function', () => {
-    assert.isFunction(truck.movRight)
-  })
-  it('should have move left function', () => {
-    assert.isFunction(truck.movLeft)
+    assert.isFunction(truck.movRight);
   })
   it('truck moves', () => {
-    truck.movRight()
+    truck.movRight();
     assert.equal(truck.x, 3)
   })
   it('check attributes', () => {
@@ -26,6 +23,6 @@ describe('Truck', () => {
     assert.equal(truck.height, 40);
     assert.equal(truck.pace, 3);
   })
-})
+  })
 
 })

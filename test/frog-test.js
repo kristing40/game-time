@@ -4,7 +4,7 @@ const Frog = require('../lib/Frog.js');
 
 
 
-xdescribe('Frog', () => {
+describe('Frog', () => {
   context('with default attributes', () => {
    const frog = new Frog(0, 0, 40, 40);
   //  console.log(audio);
@@ -25,6 +25,11 @@ xdescribe('Frog', () => {
      assert.equal(frog.x, 0);
      frog.move({keyCode: 30})
      assert.equal(frog.x, 30)
+   })
+   it('should be able to move left', () => {
+    //  create frog and create car where they will be colliding
+    //  make fake function which changes collisionFlag
+    //  frog.detectCollision([ car ], mockResetFn)
    })
  })
 })

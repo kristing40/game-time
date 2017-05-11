@@ -9,7 +9,7 @@ describe('Water', () => {
       assert.instanceOf(water, Water);
     })
 
-    it('should have a draw function', (context) => {
+    it('should have a draw function', () => {
       assert.isFunction(water.draw);
 
     })

@@ -31,5 +31,11 @@ describe('Frog', () => {
     //  make fake function which changes collisionFlag
     //  frog.detectCollision([ car ], mockResetFn)
     })
+    it('should have an inWater function', () => {
+      assert.isFunction(frog.inWater)
+    })
+    it('should be in these dimensions if in water', () => {
+      assert.equal(frog.x, 30 && frog.x, 900 && frog.y, 155 && frog.y, 0)
+    })
   })
 })

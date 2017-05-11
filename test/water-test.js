@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const Water= require('../lib/Water.js');
+const Water = require('../lib/Water.js');
 
 describe('Water', () => {
   context('with default attributes', () => {
